@@ -1,0 +1,157 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\sglba\\OneDrive\\Desktop\\Geo Stuff\\Programming\\CodingExercise\\FrontDeskApp_CodingExercise\\FrontDeskApp_CodingExercise\\FrontDeskApp_CodingExercise.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\sglba\\OneDrive\\Desktop\\Geo Stuff\\Programming\\CodingExercise\\FrontDeskApp_CodingExercise\\Db_FrontDeskApp\\Db_FrontDeskApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sglba\\OneDrive\\Desktop\\Geo Stuff\\Programming\\CodingExercise\\FrontDeskApp_CodingExercise\\Db_FrontDeskApp\\Db_FrontDeskApp.csproj",
+        "projectName": "Db_FrontDeskApp",
+        "projectPath": "C:\\Users\\sglba\\OneDrive\\Desktop\\Geo Stuff\\Programming\\CodingExercise\\FrontDeskApp_CodingExercise\\Db_FrontDeskApp\\Db_FrontDeskApp.csproj",
+        "packagesPath": "C:\\Users\\sglba\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sglba\\OneDrive\\Desktop\\Geo Stuff\\Programming\\CodingExercise\\FrontDeskApp_CodingExercise\\Db_FrontDeskApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sglba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\sglba\\OneDrive\\Desktop\\Geo Stuff\\Programming\\CodingExercise\\FrontDeskApp_CodingExercise\\FrontDeskApp_CodingExercise\\FrontDeskApp_CodingExercise.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sglba\\OneDrive\\Desktop\\Geo Stuff\\Programming\\CodingExercise\\FrontDeskApp_CodingExercise\\FrontDeskApp_CodingExercise\\FrontDeskApp_CodingExercise.csproj",
+        "projectName": "FrontDeskApp_CodingExercise",
+        "projectPath": "C:\\Users\\sglba\\OneDrive\\Desktop\\Geo Stuff\\Programming\\CodingExercise\\FrontDeskApp_CodingExercise\\FrontDeskApp_CodingExercise\\FrontDeskApp_CodingExercise.csproj",
+        "packagesPath": "C:\\Users\\sglba\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sglba\\OneDrive\\Desktop\\Geo Stuff\\Programming\\CodingExercise\\FrontDeskApp_CodingExercise\\FrontDeskApp_CodingExercise\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sglba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "C:\\Users\\sglba\\OneDrive\\Desktop\\Geo Stuff\\Programming\\CodingExercise\\FrontDeskApp_CodingExercise\\Db_FrontDeskApp\\Db_FrontDeskApp.csproj": {
+                "projectPath": "C:\\Users\\sglba\\OneDrive\\Desktop\\Geo Stuff\\Programming\\CodingExercise\\FrontDeskApp_CodingExercise\\Db_FrontDeskApp\\Db_FrontDeskApp.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

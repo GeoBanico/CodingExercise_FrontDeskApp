@@ -1,0 +1,31 @@
+﻿<Window x:Class="FrontDeskApp_CodingExercise.SelectPackage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FrontDeskApp_CodingExercise"
+        mc:Ignorable="d"
+        Title="FrontDesk App" Height="450" Width="500" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Label Content="STORE PACKAGE" HorizontalAlignment="Center" Margin="0,64,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold"/>
+        <ListBox Name="lstBox_Facilities" Margin="57,141,277,0" Height="174" VerticalAlignment="Top" SelectionChanged="lstBox_Facilities_SelectionChanged"/>
+
+        <Grid x:Name="grid_FacilityDetails" Margin="228,128,0,0" HorizontalAlignment="Left" Width="217" Height="200" VerticalAlignment="Top">
+            <Label Content="Facility Name:" HorizontalAlignment="Left" Margin="12,10,0,0" VerticalAlignment="Top"/>
+            <Label x:Name="lblFacilityName" Content="" HorizontalAlignment="Left" Margin="100,10,0,0" VerticalAlignment="Top"/>
+            <Label Content="- STORAGE AVAILABILITY -" HorizontalAlignment="Left" Margin="44,46,0,0" VerticalAlignment="Top" FontSize="10" FontStyle="Italic"/>
+            <Label Content="SMALL:" HorizontalAlignment="Left" Margin="23,76,0,0" VerticalAlignment="Top"/>
+            <Button Name="btn_Small" Content="+" HorizontalAlignment="Left" Margin="184,82,0,0" VerticalAlignment="Top" Width="20" Click="btn_Small_Click" Height="20" />
+            <Label x:Name="lblSmall" Content="" HorizontalAlignment="Left" Margin="80,76,0,0" VerticalAlignment="Top"/>
+            <Label Content="MEDIUM:" HorizontalAlignment="Left" Margin="12,112,0,0" VerticalAlignment="Top"/>
+            <Label x:Name="lblMedium" Content="" HorizontalAlignment="Left" Margin="80,112,0,0" VerticalAlignment="Top"/>
+            <Button Name="btn_Medium" Content="+" HorizontalAlignment="Left" Margin="184,118,0,0" VerticalAlignment="Top" Width="20" Click="btn_Medium_Click" Height="20" />
+            <Label Content="LARGE:" HorizontalAlignment="Left" Margin="24,152,0,0" VerticalAlignment="Top"/>
+            <Label x:Name="lblLarge" Content="" HorizontalAlignment="Left" Margin="80,152,0,0" VerticalAlignment="Top"/>
+            <Button Name="btn_Large" Content="+" HorizontalAlignment="Left" Margin="184,155,0,0" VerticalAlignment="Top" Width="20" Click="btn_Large_Click" Height="20" />
+        </Grid>
+
+        <Button Name="btn_AddFacility" Content="NEW FACILITY" HorizontalAlignment="Left" Margin="80,335,0,0" VerticalAlignment="Top" Width="110" Click="btn_AddFacility_Click" Height="25"/>
+        <Button Name="btn_Back" Content="CANCEL" HorizontalAlignment="Left" Margin="286,335,0,0" VerticalAlignment="Top" Click="btn_Back_Click" Width="110" Height="25"/>
+    </Grid>
+</Window>
